@@ -15,7 +15,7 @@ Source0:	ftp://ftp.videolan.org/pub/videolan/libaacs/%{version}/%{name}-%{versio
 
 BuildRequires:	libgcrypt-devel
 BuildRequires:	bison
-BuildRequires:	byacc
+BuildRequires:	flex
 
 %description
 The doom9 researchers and the libaacs 
