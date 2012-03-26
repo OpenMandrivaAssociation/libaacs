@@ -14,6 +14,7 @@ URL:		http://www.videolan.org
 Source0:	ftp://ftp.videolan.org/pub/videolan/libaacs/%{version}/%{name}-%{version}.tar.bz2
 
 BuildRequires:	libgcrypt-devel
+BuildRequires:	bison
 
 %description
 The doom9 researchers and the libaacs 
