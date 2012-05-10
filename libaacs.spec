@@ -6,7 +6,7 @@
 
 Summary:	implementation of the libaacs standard
 Name:		libaacs
-Version:	0.3.1
+Version:	0.4.0
 Release:	1
 License:	LGPLv2+
 Group:		System/Libraries
@@ -69,6 +69,7 @@ rm %{buildroot}%{_libdir}/*.la
 
 %files -n %{libname}
 %{_libdir}/%{name}.so.%{major}*
+%{_bindir}/aacs_info
 
 %files -n %{devname}
 %{_includedir}/%{name}
