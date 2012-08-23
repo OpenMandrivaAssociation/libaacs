@@ -6,7 +6,7 @@
 
 Summary:	implementation of the libaacs standard
 Name:		libaacs
-Version:	0.4.0
+Version:	0.5.0
 Release:	1
 License:	LGPLv2+
 Group:		System/Libraries
@@ -15,7 +15,10 @@ Source0:	ftp://ftp.videolan.org/pub/videolan/libaacs/%{version}/%{name}-%{versio
 
 BuildRequires:	libgcrypt-devel
 BuildRequires:	bison
+BuildRequires:	byacc
 BuildRequires:	flex
+
+Patch0:		bison_2.6.patch
 
 %description
 The doom9 researchers and the libaacs 
@@ -58,6 +61,7 @@ Development static lib for %{name}
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %configure2_5x
