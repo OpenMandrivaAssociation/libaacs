@@ -7,7 +7,7 @@
 Summary:	implementation of the libaacs standard
 Name:		libaacs
 Version:	0.5.0
-Release:	1
+Release:	2
 License:	LGPLv2+
 Group:		System/Libraries
 URL:		http://www.videolan.org
