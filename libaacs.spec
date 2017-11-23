@@ -11,7 +11,7 @@ Release:	2
 License:	LGPLv2+
 Group:		System/Libraries
 URL:		http://www.videolan.org
-Source0:	ftp://ftp.videolan.org/pub/videolan/libaacs/%{version}/%{name}-%{version}.tar.bz2
+Source0:	http://download.videolan.org/pub/videolan/libaacs/%{version}/%{name}-%{version}.tar.bz2
 
 BuildRequires:	libgcrypt-devel
 BuildRequires:	bison
