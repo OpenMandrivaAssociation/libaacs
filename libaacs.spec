@@ -6,7 +6,7 @@
 
 Summary:	implementation of the libaacs standard
 Name:		libaacs
-Version:	0.9.0
+Version:	0.10.0
 Release:	1
 License:	LGPLv2+
 Group:		System/Libraries
@@ -63,10 +63,10 @@ Development static lib for %{name}
 
 %build
 %configure --enable-static
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 rm %{buildroot}%{_libdir}/*.la
 
 %files -n %{libname}
