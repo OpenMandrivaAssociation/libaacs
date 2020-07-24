@@ -6,7 +6,7 @@
 
 Summary:	implementation of the libaacs standard
 Name:		libaacs
-Version:	0.10.0
+Version:	0.11.0
 Release:	1
 License:	LGPLv2+
 Group:		System/Libraries
