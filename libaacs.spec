@@ -10,7 +10,7 @@ Version:	0.11.1
 Release:	1
 License:	LGPLv2+
 Group:		System/Libraries
-URL:		http://www.videolan.org
+URL:		https://www.videolan.org
 Source0:	http://download.videolan.org/pub/videolan/libaacs/%{version}/%{name}-%{version}.tar.bz2
 
 BuildRequires:	libgcrypt-devel
