@@ -13,6 +13,11 @@ Group:		System/Libraries
 URL:		https://www.videolan.org
 Source0:	http://download.videolan.org/pub/videolan/libaacs/%{version}/%{name}-%{version}.tar.bz2
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libgcrypt-devel
 BuildRequires:	bison
 BuildRequires:	byacc
